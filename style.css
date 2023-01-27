@@ -1,39 +1,66 @@
 html, body {
   height: 100%;
   width: 100%;
+  margin:0;
+  padding: 0;
 }
-.container {
-    font-family: arial;
-    font-size: 24px;
-    margin: 25px;
-    width: 350px;
-    height: 200px;
-    outline: dashed 1px black;
-    /* Center child horizontally*/
-    display: flex;
-    justify-content: center;
-  }
+.logo {
+  float: left;
+}
+/* ~~ Top Navigation Bar ~~ */
+#my-img {
+  float:right;
+
+  width: 75px;
+  height: 75px;
+  background: rgba(0, 0, 0, 0) url("https://imgs.search.brave.com/qt4XVWl0ORu8VqmGb4Lp1Pn4sOo0P0mxNDss3WT9Z8Y/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9wbmdp/bWcuY29tL3VwbG9h/ZHMvdGVzbGFfbG9n/by90ZXNsYV9sb2dv/X1BORzE5LnBuZw");
+  background-size: contain;
+
+}
+#navigation-container {
+  width: 100%;
+  margin-left: 50px;
+  height: 70px;
+}
+
+.navigation-bar {
+  background-color: #3b6097;
+  height: 70px;
+  width: 100%;
+  text-align:center;
+}
+.navigation-bar img{
+  float:left;
   
-span {
-    position: absolute;
-    transform: translate(-50%,-50%);
-    left: 50%;
-    top: 50%;
   }
-  .float-parent-element { 
-    width: 50%; 
-} 
-.float-child-element { 
-    float: left; 
-    width: 50%; 
-} 
-.red { 
-    background-color: red; 
-    margin-left: 50%; 
-    height: 100px; 
-} 
-.yellow { 
-    margin-left: 50%; 
-    height: 100px; 
-    background-color: yellow; 
+
+.navigation-bar ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
+}
+
+.navigation-bar li {
+  list-style-type: none;
+  padding: 0px;
+  height: 24px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  display: inline;
+}
+
+.navigation-bar li a {
+  color: black;
+  font-size: 60px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 5px 15px;
+  opacity: 1;
+}
+
+#menu {
+  float: right;
 }
