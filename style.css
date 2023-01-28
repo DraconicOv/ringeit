@@ -4,34 +4,37 @@ html, body {
   margin:0;
   padding: 0;
 }
+
 .logo {
   float: left;
 }
 /* ~~ Top Navigation Bar ~~ */
 #my-img {
   float:right;
-
-  width: 75px;
-  height: 75px;
-  background: rgba(0, 0, 0, 0) url("https://imgs.search.brave.com/qt4XVWl0ORu8VqmGb4Lp1Pn4sOo0P0mxNDss3WT9Z8Y/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9wbmdp/bWcuY29tL3VwbG9h/ZHMvdGVzbGFfbG9n/by90ZXNsYV9sb2dv/X1BORzE5LnBuZw");
+  margin-left: 5vw;
+  width: 6vw;
+  padding: 1;
+  height: 6vw;
+  background: rgba(255, 255, 255, 0) url("https://imgs.search.brave.com/qt4XVWl0ORu8VqmGb4Lp1Pn4sOo0P0mxNDss3WT9Z8Y/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9wbmdp/bWcuY29tL3VwbG9h/ZHMvdGVzbGFfbG9n/by90ZXNsYV9sb2dv/X1BORzE5LnBuZw");
   background-size: contain;
 
 }
 #navigation-container {
   width: 100%;
-  margin-left: 50px;
   height: 70px;
 }
 
 .navigation-bar {
   background-color: #3b6097;
   height: 70px;
-  width: 100%;
+  width: 100vw;
   text-align:center;
 }
 .navigation-bar img{
-  float:left;
-  
+  margin-right: 5%;
+  width: 6vw;
+  padding: 1;
+  height: 6vw;
   }
 
 .navigation-bar ul {
@@ -53,7 +56,7 @@ html, body {
 
 .navigation-bar li a {
   color: black;
-  font-size: 60px;
+  font-size: 5vw;
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   text-decoration: none;
   line-height: 70px;
