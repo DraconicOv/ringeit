@@ -1,8 +1,6 @@
 html, body {
   height: 100%;
   width: 100%;
-  margin:0;
-  padding: 0;
 }
 .container {
   margin-top: 5%;
@@ -50,34 +48,3 @@ html, body {
   padding: 1;
   height: 6vw;
   }
-
-.navigation-bar ul {
-  padding: 0px;
-  margin: 0px;
-  text-align: center;
-  display:inline-block;
-  vertical-align:top;
-}
-
-.navigation-bar li {
-  list-style-type: none;
-  padding: 0px;
-  height: 24px;
-  margin-top: 4px;
-  margin-bottom: 4px;
-  display: inline;
-}
-
-.navigation-bar li a {
-  color: black;
-  font-size: 5vw;
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-  text-decoration: none;
-  line-height: 70px;
-  padding: 5px 15px;
-  opacity: 1;
-}
-
-#menu {
-  float: right;
-}
