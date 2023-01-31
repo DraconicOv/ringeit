@@ -2,22 +2,49 @@ html, body {
   height: 100%;
   width: 100%;
 }
-.parent {
-    border: 1px solid black;
-    margin: 1rem;
-    padding: 2rem 2rem;
-    text-align: center;
-  }
-  
-span {
-    position: absolute;
-    transform: translate(-50%,-50%);
-    left: 50%;
-    top: 50%;
-  }
-  .child {
-    display: inline-block;
-    border: 1px solid rgb(4, 50, 255);
-    padding: 1rem 1rem;
-    vertical-align: middle;
+.container {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 2fr;
+  grid-gap: 10px;
+  text-align: center;
+  margin-left: 40%;
+  padding: 1px 16px;
+}
+.post {
+  background-color: #eee;
+  width :fit-content; 
+  padding: 1%;
+}
+.logo {
+  float: left;
+}
+/* ~~ Top Navigation Bar ~~ */
+#my-img {
+  float:right;
+  margin-left: 5vw;
+  width: 6vw;
+  padding: 1;
+  height: 6vw;
+  background: rgba(255, 255, 255, 0) url("https://imgs.search.brave.com/qt4XVWl0ORu8VqmGb4Lp1Pn4sOo0P0mxNDss3WT9Z8Y/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9wbmdp/bWcuY29tL3VwbG9h/ZHMvdGVzbGFfbG9n/by90ZXNsYV9sb2dv/X1BORzE5LnBuZw");
+  background-size: contain;
+
+}
+#navigation-container {
+  width: 100%;
+  height: 70px;
+}
+
+
+.navigation-bar {
+  background-color: #3b6097;
+  height: 70px;
+  width: 100vw;
+  text-align:center;
+}
+.navigation-bar img{
+  margin-right: 5%;
+  width: 6vw;
+  padding: 1;
+  height: 6vw;
   }
